@@ -179,3 +179,21 @@ main {
     color: rgb(194, 102, 114);
     transition: all 300ms;
 }
+
+.knopka {
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.knopka input[type="button"] {
+    color: black;
+    background-color: #e9e64d;
+    width: 90px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.tovar h1 {
+    color:antiquewhite;
+}
