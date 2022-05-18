@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Puppies and kittens</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function notReadyAlert() {
+                alert('Sorry, it is not yet possible to buy\nИзвините, пока что невозможно купить');
+                return false;
+            }
+        </script>
+    </head>
+    <body onload="loaded()">
+        <header>
+            <h3><div class="image"><img src="назад.png" width="50" height="50"> 
+            <a href ="rgz.html">Назад</a></div> </h3>
+        </header>
+        <main>
+            <div class="tovar">
+                <h1>
+                <img src="товар17.jpg" width="300" height="400" align="left" vspace="5" hspace="5"> 
+                Костюм пирата
+                <p>2899 &#8381</p>
+                </h1>
+            </div>
+            <div class="knopka">
+                <input type="button" onclick="return notReadyAlert()" value="Купить"/>
+            </div>
+            <h4>Подойдет для костюмированных вечеринок. Расцветки: коричневый.</h4>
+        </main>
+    </body>
+</html>
